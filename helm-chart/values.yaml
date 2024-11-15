@@ -6,3 +6,10 @@ backend:
   host: nlecaille-backend.codelab.cloud-sp.eu
   service:
     port: 443
+frontend:
+  name: monsuperfrontend 
+  image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0
+  containerPort: 4200
+  host: nlecaille.codelab.cloud-sp.eu
+  service:
+    port: 443
